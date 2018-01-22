@@ -40,9 +40,13 @@ def years_vals(glbs):   
   return data
   
 glbs = []
-glbs.append(glb("USA","Tech","Index",[11,12]))glbs.append(glb("USA","Tech","Non-Index",[2,3]))
-glbs.append(glb("USA","Industry","Index",[15,20]))glbs.append(glb("USA","Industry","Non-Index",[8,4]))
-glbs.append(glb("Asia","Tech","Index",[7,9]))glbs.append(glb("Asia","Tech","Non-Index",[1,5]))
-glbs.append(glb("Asia","Industry","Index",[16,20]))glbs.append(glb("Asia","Industry","Non-Index",[0,4]))
+glbs.append(glb("USA","Tech","Index",[11,12]))
+glbs.append(glb("USA","Tech","Non-Index",[2,3]))
+glbs.append(glb("USA","Industry","Index",[15,20]))
+glbs.append(glb("USA","Industry","Non-Index",[8,4]))
+glbs.append(glb("Asia","Tech","Index",[7,9]))
+glbs.append(glb("Asia","Tech","Non-Index",[1,5]))
+glbs.append(glb("Asia","Industry","Index",[16,20]))
+glbs.append(glb("Asia","Industry","Non-Index",[0,4]))
 print(index_vals(glbs))
 print(years_vals(glbs))
